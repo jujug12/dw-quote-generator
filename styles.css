@@ -1,0 +1,32 @@
+  body {
+    background-image: url("https://images.pexels.com/photos/574116/pexels-photo-574116.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+    font-family: Quicksand, sans-serif;
+    color: white;
+  }
+  
+  button {
+    color: white;
+    background-color: black;
+  }
+  
+  button:hover {
+    color: black;
+    background-color: white;
+    border-radius: 0%;
+  }
+  
+  #tweet-quote {
+    color: white;
+    position: relative;
+    left: 23%;
+  }
+  
+  #quote {
+    margin-right: 20%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    border-color: white;
+    border-style: solid;
+    padding: 1%;
+  }
+  
