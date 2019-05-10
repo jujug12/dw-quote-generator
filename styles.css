@@ -1,33 +1,53 @@
-  body {
-    background-image: url("https://images.pexels.com/photos/574116/pexels-photo-574116.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
-    background-size: 100%;
-    font-family: Quicksand, sans-serif;
-    color: white;
+ html {
+  background: url("https://images.unsplash.com/photo-1435224668334-0f82ec57b605?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80") no-repeat center fixed;
+  background-color: black;
+  background-size: cover;
+  font-family: Quicksand, sans-serif;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} 
+
+#quote-box {
+  font-size: larger;
+  border: solid white;
+  padding: 10px;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#quote {
+  padding: 10px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media only screen 
+  and (min-device-width: 320px)
+  and (max-device-width: 480px) {
+    #quote-box {
+      width: 800px;
+      height: 400px;
+    }
+    body {
+      font-size: x-large;
+    }
   }
-  
-  button {
-    color: white;
-    background-color: black;
-  }
-  
-  button:hover {
-    color: black;
-    background-color: white;
-    border-radius: 0%;
-  }
-  
-  #tweet-quote {
-    color: white;
-    position: relative;
-    left: 23%;
-  }
-  
-  #quote {
-    margin-right: 20%;
-    margin-left: 1%;
-    margin-bottom: 2%;
-    border-color: white;
-    border-style: solid;
-    padding: 1%;
-  }
-  
+
