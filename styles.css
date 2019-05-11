@@ -39,6 +39,27 @@ main {
   justify-content: space-between;
 }
 
+#new-quote {
+  width: 100px;
+  height: 50px;
+  background: transparent;
+  color: white;
+  border: solid white;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+#new-quote:hover {
+  font-weight: bold;
+  background: #fff;
+  color: #0b3f5d;
+  cursor: pointer;
+}
+
+.twitter-share-button {
+  margin-top: 10px;
+}
+
 @media only screen 
   and (min-device-width: 320px)
   and (max-device-width: 480px) {
@@ -48,6 +69,15 @@ main {
     }
     body {
       font-size: x-large;
+    }
+    #new-quote {
+      width: 200px;
+      height: 100px;
+      font-size: x-large;
+      margin: 5px;
+    }
+    .twitter-share-button {
+      margin-top: 40px;
     }
   }
 
