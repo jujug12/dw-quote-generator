@@ -40,7 +40,7 @@ let dwQuotes = [
   "Sometimes the only choices you have are bad ones, but you still have to choose.",
   "Everything ends and it's always sad. But everything begins again too. And that's always happy. Be happy.",
   "I'm just a traveler. Sometimes I see things need fixin'. I do what I can.",
-  "I'm the Doctor. I work in a shop now. I am here to help. Look, they gave me a badge with my name on it in case I forget who I am. Very thoughful as that does happen."
+  "I'm the Doctor. I work in a shop now. I am here to help. Look, they gave me a badge with my name on it in case I forget who I am. Very thoughtful as that does happen."
 ]
     
 let dwAuthors = [
